@@ -47,3 +47,10 @@
 @media(max-width:760px){.review-invitation{grid-template-columns:1fr;gap:26px}.review-invitation-action{justify-self:start;max-width:none}.review-cta{width:100%;justify-content:space-between;padding:14px 16px;font-size:13px}}
 
 .work-albums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 24px}.work-cover{display:block;position:relative;width:100%;height:300px;padding:0;overflow:hidden;background:#e3e8dd;cursor:zoom-in}.work-album h3{font:400 24px/1.3 Georgia,serif;color:#18372c;margin-top:16px}.work-cover:focus-visible{outline:3px solid #8f9f6c;outline-offset:4px}@media(max-width:1000px){.work-albums{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.work-albums{grid-template-columns:1fr;gap:26px}.work-cover{height:320px}}
+
+/* Real job-site hero: portrait photo on the right, clear copy area on the left. */
+.premium .hero{background:#18372c}
+.premium .hero-photo{left:42%;background:#18372c}
+.premium .hero-photo img{object-position:center 40%;filter:brightness(.86) saturate(.85)}
+.premium .hero-photo:after{background:linear-gradient(90deg,#18372c 0%,#18372c99 22%,#18372c15 65%)}
+@media(max-width:760px){.premium .hero-photo{left:0}.premium .hero-photo img{object-position:62% center;filter:brightness(.65) saturate(.85)}.premium .hero-photo:after{background:linear-gradient(90deg,#18372ce8 0%,#18372c88 65%,#18372c33 100%)}}
