@@ -33,3 +33,15 @@
 .contact-options a:hover{background:#e7ece3}
 .contact-widget summary:hover{background:#294e3e}
 @media(max-width:760px){.contact-widget{right:12px;bottom:12px}.contact-widget summary{min-height:48px;padding:13px 18px}}
+
+/* Client feedback invitation; testimonials added only from approved originals. */
+.reviews-section{border-top:1px solid #d5ddd1}
+.review-invitation{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:clamp(24px,5vw,70px);padding:clamp(24px,4vw,48px);background:#edf0e8;border:1px solid #d2dacb}
+.review-invitation .eyebrow-label{color:#53674f;margin-bottom:18px}
+.review-invitation h3{font:400 clamp(26px,3vw,36px)/1.2 Georgia,serif;color:#18372c;margin:0 0 18px}
+.review-invitation-copy p{max-width:530px;font-size:15px;line-height:1.75;color:#52634f}
+.review-invitation-action{justify-self:end;max-width:350px}
+.review-cta{background:#18372c;color:#fff;min-height:48px;gap:16px;white-space:normal}
+.review-cta:hover{background:#294e3e}
+.review-invitation-action p{font-size:12px;line-height:1.65;margin-top:16px;color:#52634f}
+@media(max-width:760px){.review-invitation{grid-template-columns:1fr;gap:26px}.review-invitation-action{justify-self:start;max-width:none}.review-cta{width:100%;justify-content:space-between;padding:14px 16px;font-size:13px}}
