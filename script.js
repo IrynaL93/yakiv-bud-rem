@@ -78,3 +78,6 @@ viewer.addEventListener('close', () => {
   document.body.classList.remove('lightbox-open');
   opener?.focus();
 });
+
+// Draft: never submit personal data until a delivery endpoint is configured.
+document.querySelector('.request-form')?.addEventListener('submit', event => event.preventDefault());
