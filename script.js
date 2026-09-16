@@ -1,6 +1,12 @@
 document.querySelectorAll('.mobile-menu a').forEach(link=>link.addEventListener('click',()=>{link.closest('details').open=false}));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'){document.querySelectorAll('.mobile-menu[open]').forEach(menu=>{menu.open=false;menu.querySelector('summary').focus()})}});
-document.querySelectorAll('img').forEach(img=>{const fail=()=>img.parentElement.classList.add('photo-failed');img.addEventListener('error',fail);if(img.complete&&!img.naturalWidth)fail()});
+document.querySelectorAll('img:not(.gallery-image)').forEach(img => {
+  const fail = () => img.parentElement.classList.add('photo-failed');
+  const recover = () => img.parentElement.classList.remove('photo-failed');
+  img.addEventListener('error', fail);
+  img.addEventListener('load', recover);
+  if (img.getAttribute('src') && img.complete && !img.naturalWidth) fail();
+});
 
 
 const tabs = [...document.querySelectorAll('.service-tabs [role="tab"]')];
@@ -48,6 +54,7 @@ function showPhoto(index) {
   position = (index + photos.length) % photos.length;
   const photo = photos[position];
   error.hidden = true;
+  fullImage.parentElement.classList.remove('photo-failed');
   fullImage.hidden = false;
   fullImage.alt = photo.alt;
   fullImage.src = photo.src;
