@@ -81,3 +81,24 @@ viewer.addEventListener('close', () => {
 
 // Draft: never submit personal data until a delivery endpoint is configured.
 document.querySelector('.request-form')?.addEventListener('submit', event => event.preventDefault());
+
+const contactWidget = document.querySelector('.contact-widget');
+if (contactWidget) {
+  const contactToggle = contactWidget.querySelector('summary');
+  const closeContact = (restoreFocus = false) => {
+    contactWidget.open = false;
+    if (restoreFocus) contactToggle.focus();
+  };
+  document.addEventListener('click', event => {
+    if (contactWidget.open && !contactWidget.contains(event.target)) closeContact();
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && contactWidget.open) closeContact(true);
+  });
+  document.addEventListener('focusin', event => {
+    if (contactWidget.open && !contactWidget.contains(event.target)) closeContact();
+  });
+  contactWidget.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => closeContact(true));
+  });
+}

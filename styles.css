@@ -20,3 +20,16 @@
 .contact-section{align-items:center;gap:clamp(32px,6vw,100px)}.contact-copy h2{font-size:clamp(34px,4vw,56px)}.contact-copy>p{max-width:490px}.contact-quick{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.contact-section .contact-quick .button{margin:0;padding:13px 18px;font-size:14px}.contact-section .button-outline{background:transparent;color:#f5f1e6;border:1px solid #b4c3ad}.contact-phone{display:inline-block;font-size:20px;margin-top:24px}.contact-region{font-size:13px;margin-top:6px}.request-form{display:grid;gap:12px;background:#ffffff09;border:1px solid #ffffff26;padding:32px;min-width:0}.request-form label{font-size:14px;color:#f5f1e6}.request-form input,.request-form textarea{width:100%;min-width:0;border:1px solid #aab9a2;background:#f8f7f1;color:#18372c;border-radius:0;padding:14px;font:16px/1.5 Arial,sans-serif}.request-form textarea{resize:vertical;min-height:90px;max-height:300px}.request-form input{margin-bottom:8px}.request-form input::placeholder,.request-form textarea::placeholder{color:#657064}.contact-section .form-submit{width:100%;margin:8px 0 0;justify-content:space-between}.contact-section .form-status{font-size:12px;line-height:1.5;margin:0;color:#dae2d4}.contact-section button:disabled,.contact-float button:disabled{opacity:.65;cursor:not-allowed}.contact-float{position:fixed;bottom:20px;right:20px;display:flex;z-index:8;box-shadow:0 7px 30px #0003;background:#18372c;color:white;border:1px solid #99ad92}.contact-float a,.contact-float button{padding:14px 18px;font:13px/1.4 Arial,sans-serif;color:inherit;background:transparent}.contact-float button{border-left:1px solid #99ad92}@media(max-width:760px){.request-form{padding:22px 18px}.contact-float{right:12px;bottom:12px;max-width:calc(100% - 24px)}.contact-float a,.contact-float button{padding:12px 14px}.contact-section{gap:28px}.contact-quick{gap:10px}}
 
 .contact-float a{display:flex;align-items:center;min-height:44px}.contact-float a+a{border-left:1px solid #99ad92}.contact-float a:hover{background:#294e3e}
+
+/* Expandable floating contact control */
+.contact-widget{position:fixed;right:20px;bottom:20px;z-index:8;color:#fff;font:14px/1.4 Arial,sans-serif}
+.contact-widget summary{display:flex;align-items:center;justify-content:space-between;gap:28px;min-height:52px;padding:15px 22px;list-style:none;background:#18372c;border:1px solid #99ad92;box-shadow:0 7px 30px #0003;cursor:pointer}
+.contact-widget summary::-webkit-details-marker{display:none}
+.contact-toggle-icon{font-size:24px;line-height:1;transition:transform .15s}
+.contact-widget[open] .contact-toggle-icon{transform:rotate(45deg)}
+.contact-options{position:absolute;bottom:calc(100% + 10px);right:0;display:grid;width:250px;max-width:calc(100vw - 24px);background:#f8f7f1;color:#18372c;border:1px solid #b4c3ad;box-shadow:0 7px 30px #0003;padding:6px}
+.contact-options a{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:48px;padding:13px 14px}
+.contact-options a+a{border-top:1px solid #dce2d8}
+.contact-options a:hover{background:#e7ece3}
+.contact-widget summary:hover{background:#294e3e}
+@media(max-width:760px){.contact-widget{right:12px;bottom:12px}.contact-widget summary{min-height:48px;padding:13px 18px}}
