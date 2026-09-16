@@ -46,7 +46,7 @@ const error = viewer.querySelector('.gallery-error');
 let photos = [], position = 0, opener;
 function showPhoto(index) {
   position = (index + photos.length) % photos.length;
-  const photo = photos[position].querySelector('img');
+  const photo = photos[position];
   error.hidden = true;
   fullImage.hidden = false;
   fullImage.alt = photo.alt;
@@ -56,10 +56,10 @@ function showPhoto(index) {
   previous.hidden = next.hidden = photos.length < 2;
 }
 fullImage.addEventListener('error', () => { fullImage.hidden = true; error.hidden = false; });
-cards.forEach(card => card.querySelector('.gallery-open').addEventListener('click', event => {
+document.querySelectorAll('[data-photos] .gallery-open').forEach(button => button.addEventListener('click', event => {
   opener = event.currentTarget;
-  photos = cards.filter(item => !item.hidden);
-  showPhoto(photos.indexOf(card));
+  photos = JSON.parse(button.closest('[data-photos]').dataset.photos);
+  showPhoto(0);
   viewer.showModal();
   document.body.classList.add('lightbox-open');
 }));
