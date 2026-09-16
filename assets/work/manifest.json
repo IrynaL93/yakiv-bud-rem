@@ -27,6 +27,20 @@
       "src": "assets/work/foundation-04.webp",
       "width": 750,
       "alt": "Фундамент — фото робіт YAKIV.BUD.REM, 4"
+    },
+    {
+      "height": 1000,
+      "source": "фундамент/IMG_5882_result.webp",
+      "src": "assets/work/foundation-05.webp",
+      "width": 750,
+      "alt": "Фундамент — фото робіт YAKIV.BUD.REM, 5"
+    },
+    {
+      "height": 1000,
+      "source": "фундамент/IMG_9014_result.webp",
+      "src": "assets/work/foundation-06.webp",
+      "width": 750,
+      "alt": "Фундамент — фото робіт YAKIV.BUD.REM, 6"
     }
   ],
   "plaster": [
@@ -57,6 +71,20 @@
       "src": "assets/work/plaster-04.webp",
       "width": 750,
       "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 4"
+    },
+    {
+      "height": 1000,
+      "source": "штукатурка/IMG_2358_result.webp",
+      "src": "assets/work/plaster-05.webp",
+      "width": 750,
+      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 5"
+    },
+    {
+      "height": 1000,
+      "source": "штукатурка/IMG_3813_result.webp",
+      "src": "assets/work/plaster-06.webp",
+      "width": 750,
+      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 6"
     }
   ],
   "ring-beams": [
@@ -87,6 +115,20 @@
       "src": "assets/work/ring-beams-04.webp",
       "width": 750,
       "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 4"
+    },
+    {
+      "height": 1000,
+      "source": "армопояс/IMG_6156 (2)_result.webp",
+      "src": "assets/work/ring-beams-05.webp",
+      "width": 750,
+      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 5"
+    },
+    {
+      "height": 1000,
+      "source": "армопояс/photo_2024-12-18_12-52-05.jpg",
+      "src": "assets/work/ring-beams-06.webp",
+      "width": 750,
+      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 6"
     }
   ],
   "roof": [
@@ -117,6 +159,20 @@
       "src": "assets/work/roof-04.webp",
       "width": 750,
       "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 4"
+    },
+    {
+      "height": 1000,
+      "source": "покрівля/IMG_9021_result.webp",
+      "src": "assets/work/roof-05.webp",
+      "width": 750,
+      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 5"
+    },
+    {
+      "height": 1000,
+      "source": "покрівля/IMG_9141_result.webp",
+      "src": "assets/work/roof-06.webp",
+      "width": 750,
+      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 6"
     }
   ],
   "screed": [
@@ -156,6 +212,20 @@
       "src": "assets/work/stairs-04.webp",
       "width": 1000,
       "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 4"
+    },
+    {
+      "height": 1000,
+      "source": "сходи/photo_2026-09-16_13-51-51_result.webp",
+      "src": "assets/work/stairs-05.webp",
+      "width": 750,
+      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 5"
+    },
+    {
+      "height": 1000,
+      "source": "сходи/photo_2026-09-16_13-53-49_result.webp",
+      "src": "assets/work/stairs-06.webp",
+      "width": 750,
+      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 6"
     }
   ],
   "walls": [
@@ -186,6 +256,20 @@
       "src": "assets/work/walls-04.webp",
       "width": 750,
       "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 4"
+    },
+    {
+      "height": 1000,
+      "source": "кладка стін/IMG_6022_result.webp",
+      "src": "assets/work/walls-05.webp",
+      "width": 750,
+      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 5"
+    },
+    {
+      "height": 1000,
+      "source": "кладка стін/photo_2024-12-18_12-45-51_result.webp",
+      "src": "assets/work/walls-06.webp",
+      "width": 750,
+      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 6"
     }
   ]
 }
