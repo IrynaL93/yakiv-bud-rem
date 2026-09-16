@@ -20,6 +20,7 @@ function selectCategory(tab) {
   gallery.classList.toggle('is-filtered', tab.dataset.category !== '0');
   gallery.setAttribute('aria-labelledby', tab.id);
 }
+selectCategory(tabs[0]);
 tabs.forEach((tab, i) => {
   tab.addEventListener('click', () => selectCategory(tab));
   tab.addEventListener('keydown', event => {
