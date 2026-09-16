@@ -75,3 +75,53 @@
 .social-feedback figcaption{font-weight:600;font-size:13px}.social-feedback figcaption span{display:block;font-weight:400;font-size:11px;color:#64735c;margin-top:4px}
 @media(max-width:1000px){.testimonials-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:640px){.testimonials-grid,.social-feedback-grid{grid-template-columns:1fr}.testimonial-card{padding:24px}.testimonials-grid{gap:16px}.testimonial-card blockquote{font-size:14px}}
+
+/* Responsive layout: constrain content instead of hiding horizontal overflow. */
+.section-heading h2{min-width:0;max-width:100%;flex-shrink:1;overflow-wrap:break-word}
+.about-grid>*,.contact-section>*,.review-invitation>*{min-width:0}
+.testimonial-card,.request-form,.service-description{overflow-wrap:break-word}
+@media(min-width:761px) and (max-width:1050px){
+  .site-header{flex-wrap:wrap;justify-content:space-between;gap:12px 20px}
+  .site-header .nav-links{order:3;flex-basis:100%;justify-content:center;flex-wrap:wrap;padding:8px 0}
+  .section-heading{flex-wrap:wrap}
+  .section-heading p{margin-left:0}
+}
+@media(max-width:760px){
+  .site-header{min-height:100px}
+  .mobile-menu summary{min-height:44px;min-width:64px;display:flex;align-items:center;justify-content:center}
+  .mobile-menu nav{max-height:calc(100svh - 110px);overflow-y:auto}
+  .mobile-menu nav a{display:block;padding:10px 0}
+  .premium .hero{min-height:0}
+  .premium .hero-copy{padding-top:56px;padding-bottom:74px}
+  .premium .hero h1{font-size:clamp(34px,9vw,54px);letter-spacing:-1px;overflow-wrap:break-word}
+  .premium .hero p{max-width:34ch}
+  .hero .button{max-width:100%;gap:18px}
+  .section-heading{display:block}
+  .section-heading:after{display:none}
+  .section-heading h2,.extra-section h2,.about-grid h2{font-size:clamp(28px,7.8vw,36px);line-height:1.15;overflow-wrap:break-word}
+  .section-heading p{margin-top:16px;max-width:100%;width:auto}
+  .service-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;overflow:visible;margin:0 0 24px;padding:0}
+  .service-tabs button{min-width:0;min-height:48px;padding:10px 8px;font-size:13px;white-space:normal}
+  .service-tabs button:last-child{grid-column:1/-1}
+  .services.is-filtered .gallery-open{height:clamp(230px,75vw,380px)}
+  .premium .service-info{font-size:22px;line-height:1.3;align-items:flex-start}
+  .services.is-filtered .service-info{padding-top:18px}
+  .services.is-filtered .service-description{padding-top:12px;max-width:none}
+  .service-info .arrow{flex-shrink:0}
+  .testimonials-grid{grid-template-columns:minmax(0,1fr)}
+  .review-invitation-action{width:100%}
+  .contact-copy h2{font-size:clamp(28px,8vw,38px);overflow-wrap:break-word}
+  .contact-quick{display:grid;grid-template-columns:minmax(0,1fr)}
+  .contact-section .contact-quick .button{width:100%;gap:16px}
+  .contact-widget{right:max(12px,env(safe-area-inset-right));bottom:calc(12px + env(safe-area-inset-bottom))}
+  .site-footer{padding-bottom:calc(96px + env(safe-area-inset-bottom))}
+  .gallery-dialog{width:calc(100% - 16px);max-width:none;max-height:calc(100dvh - 16px);padding:54px 12px 16px}
+  .gallery-image{height:min(58dvh,560px)}
+  .gallery-dialog figcaption{overflow-wrap:break-word}
+  .gallery-controls{gap:20px}
+}
+@media(max-width:360px){
+  .brand-logo{width:145px;height:70px}
+  .steps{grid-template-columns:minmax(0,1fr)}
+  .request-form,.testimonial-card{padding:20px 16px}
+}
