@@ -125,3 +125,11 @@
   .steps{grid-template-columns:minmax(0,1fr)}
   .request-form,.testimonial-card{padding:20px 16px}
 }
+
+/* Social profiles in contacts and footer, with touch-friendly links. */
+.social-links{display:flex;flex-wrap:wrap;align-items:center;gap:8px 24px;margin-top:20px}
+.social-links a{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:8px 0;font-size:14px;text-decoration:underline;text-underline-offset:5px}
+.social-links a:hover{text-decoration-thickness:2px}
+.site-footer{flex-wrap:wrap;align-items:center}
+.footer-social{margin-top:0;text-transform:none;letter-spacing:normal}
+@media(max-width:760px){.site-footer{align-items:flex-start}.social-links{gap:8px 20px}}
