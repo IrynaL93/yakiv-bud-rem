@@ -265,46 +265,46 @@
   ],
   "walls": [
     {
-      "height": 1000,
-      "source": "кладка стін/IMG_6482_result.webp",
-      "src": "assets/work/walls-01.webp",
-      "width": 750,
-      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 1"
+      "src": "assets/work/walls-sep19-0.webp",
+      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 1",
+      "width": 1050,
+      "height": 1400,
+      "source": "кладка/головна.webp"
     },
     {
-      "height": 1000,
-      "source": "кладка стін/IMG_6549_result.webp",
-      "src": "assets/work/walls-02.webp",
-      "width": 750,
-      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 2"
+      "src": "assets/work/walls-sep19-1.webp",
+      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 2",
+      "width": 1050,
+      "height": 1400,
+      "source": "кладка/1.webp"
     },
     {
-      "height": 1000,
-      "source": "кладка стін/photo_2024-12-18_12-46-17_result.webp",
-      "src": "assets/work/walls-03.webp",
-      "width": 750,
-      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 3"
+      "src": "assets/work/walls-sep19-2.webp",
+      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 3",
+      "width": 960,
+      "height": 1280,
+      "source": "кладка/2.webp"
     },
     {
-      "height": 1000,
-      "source": "кладка стін/photo_2024-12-18_12-46-26_result.webp",
-      "src": "assets/work/walls-04.webp",
-      "width": 750,
-      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 4"
+      "src": "assets/work/walls-sep19-3.webp",
+      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 4",
+      "width": 960,
+      "height": 1280,
+      "source": "кладка/3.webp"
     },
     {
-      "height": 1000,
-      "source": "кладка стін/IMG_6022_result.webp",
-      "src": "assets/work/walls-05.webp",
-      "width": 750,
-      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 5"
+      "src": "assets/work/walls-sep19-4.webp",
+      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 5",
+      "width": 960,
+      "height": 1280,
+      "source": "кладка/4.webp"
     },
     {
-      "height": 1000,
-      "source": "кладка стін/photo_2024-12-18_12-45-51_result.webp",
-      "src": "assets/work/walls-06.webp",
-      "width": 750,
-      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 6"
+      "src": "assets/work/walls-sep19-5.webp",
+      "alt": "Кладка стін — фото робіт YAKIV.BUD.REM, 6",
+      "width": 1050,
+      "height": 1400,
+      "source": "кладка/5.webp"
     }
   ]
 }
