@@ -1,6 +1,6 @@
 document.querySelectorAll('.mobile-menu a').forEach(link=>link.addEventListener('click',()=>{link.closest('details').open=false}));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'){document.querySelectorAll('.mobile-menu[open]').forEach(menu=>{menu.open=false;menu.querySelector('summary').focus()})}});
-document.querySelectorAll('img:not(.gallery-image)').forEach(img => {
+document.querySelectorAll('img:not(.gallery-image):not(.review-dialog-image)').forEach(img => {
   const fail = () => img.parentElement.classList.add('photo-failed');
   const recover = () => img.parentElement.classList.remove('photo-failed');
   img.addEventListener('error', fail);
@@ -110,3 +110,50 @@ if (contactWidget) {
     link.addEventListener('click', () => closeContact(true));
   });
 }
+
+// Original conversation screenshots, shown at readable width with vertical scrolling.
+const reviewDialog = document.querySelector('.review-dialog');
+const reviewImage = reviewDialog.querySelector('.review-dialog-image');
+const reviewError = reviewDialog.querySelector('.review-dialog-error');
+const reviewPrev = reviewDialog.querySelector('.review-dialog-prev');
+const reviewNext = reviewDialog.querySelector('.review-dialog-next');
+let reviewPhotos = [], reviewPosition = 0, reviewOpener;
+function showReviewScreenshot(index) {
+  reviewPosition = (index + reviewPhotos.length) % reviewPhotos.length;
+  const photo = reviewPhotos[reviewPosition];
+  reviewError.hidden = true;
+  reviewImage.hidden = false;
+  reviewImage.alt = photo.alt;
+  reviewImage.src = photo.src;
+  reviewDialog.querySelector('.review-dialog-count').textContent = `${reviewPosition + 1} / ${reviewPhotos.length}`;
+  reviewPrev.hidden = reviewNext.hidden = reviewPhotos.length < 2;
+  reviewDialog.scrollTop = 0;
+}
+reviewImage.addEventListener('error', () => { reviewImage.hidden = true; reviewError.hidden = false; });
+document.querySelectorAll('[data-review-images]').forEach(link => link.addEventListener('click', event => {
+  if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  reviewOpener = link;
+  reviewPhotos = JSON.parse(link.dataset.reviewImages);
+  showReviewScreenshot(0);
+  reviewDialog.showModal();
+  reviewDialog.scrollTop = 0;
+  document.body.classList.add('lightbox-open');
+}));
+reviewDialog.querySelector('.review-dialog-close').addEventListener('click', () => reviewDialog.close());
+reviewPrev.addEventListener('click', () => showReviewScreenshot(reviewPosition - 1));
+reviewNext.addEventListener('click', () => showReviewScreenshot(reviewPosition + 1));
+reviewDialog.addEventListener('keydown', event => {
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    event.preventDefault();
+    showReviewScreenshot(reviewPosition + (event.key === 'ArrowRight' ? 1 : -1));
+  }
+});
+reviewDialog.addEventListener('click', event => {
+  const bounds = reviewDialog.getBoundingClientRect();
+  if (event.target === reviewDialog && (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom)) reviewDialog.close();
+});
+reviewDialog.addEventListener('close', () => {
+  document.body.classList.remove('lightbox-open');
+  reviewOpener?.focus();
+});
