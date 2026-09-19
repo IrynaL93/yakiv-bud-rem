@@ -157,3 +157,25 @@ reviewDialog.addEventListener('close', () => {
   document.body.classList.remove('lightbox-open');
   reviewOpener?.focus();
 });
+
+
+const reviewStrip = document.querySelector('.review-screenshots');
+const stripPrev = document.querySelector('.review-strip-prev');
+const stripNext = document.querySelector('.review-strip-next');
+if (reviewStrip && stripPrev && stripNext) {
+  const syncReviewStrip = () => {
+    stripPrev.disabled = reviewStrip.scrollLeft < 2;
+    stripNext.disabled = reviewStrip.scrollLeft + reviewStrip.clientWidth >= reviewStrip.scrollWidth - 2;
+  };
+  const moveReviewStrip = direction => {
+    const cards = [...reviewStrip.children];
+    const current = cards.reduce((best, card, i) => Math.abs(card.getBoundingClientRect().left - reviewStrip.getBoundingClientRect().left) < Math.abs(cards[best].getBoundingClientRect().left - reviewStrip.getBoundingClientRect().left) ? i : best, 0);
+    const target = cards[Math.max(0, Math.min(cards.length - 1, current + direction))];
+    reviewStrip.scrollBy({left:target.getBoundingClientRect().left-reviewStrip.getBoundingClientRect().left,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+  };
+  stripPrev.addEventListener('click', () => moveReviewStrip(-1));
+  stripNext.addEventListener('click', () => moveReviewStrip(1));
+  reviewStrip.addEventListener('scroll', syncReviewStrip, {passive:true});
+  window.addEventListener('resize', syncReviewStrip);
+  syncReviewStrip();
+}
