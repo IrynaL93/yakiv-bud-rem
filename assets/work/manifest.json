@@ -89,46 +89,46 @@
   ],
   "ring-beams": [
     {
-      "height": 1000,
-      "source": "армопояс/IMG_6147 (2)_result.webp",
-      "src": "assets/work/ring-beams-01.webp",
-      "width": 750,
-      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 1"
+      "src": "assets/work/ring-beams-sep19-0.webp",
+      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 1",
+      "width": 1050,
+      "height": 1400,
+      "source": "армопояс/головна.HEIC"
     },
     {
-      "height": 1000,
-      "source": "армопояс/photo_2024-12-18_12-45-56.jpg",
-      "src": "assets/work/ring-beams-02.webp",
-      "width": 750,
-      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 2"
+      "src": "assets/work/ring-beams-sep19-1.webp",
+      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 2",
+      "width": 1050,
+      "height": 1400,
+      "source": "армопояс/1.HEIC"
     },
     {
-      "height": 1000,
-      "source": "армопояс/photo_2024-12-18_12-52-04.jpg",
-      "src": "assets/work/ring-beams-03.webp",
-      "width": 750,
-      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 3"
+      "src": "assets/work/ring-beams-sep19-2.webp",
+      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 3",
+      "width": 960,
+      "height": 1280,
+      "source": "армопояс/2.jpg"
     },
     {
-      "height": 1000,
-      "source": "армопояс/photo_2024-12-18_12-52-09.jpg",
-      "src": "assets/work/ring-beams-04.webp",
-      "width": 750,
-      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 4"
+      "src": "assets/work/ring-beams-sep19-3.webp",
+      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 4",
+      "width": 960,
+      "height": 1280,
+      "source": "армопояс/3.jpg"
     },
     {
-      "height": 1000,
-      "source": "армопояс/IMG_6156 (2)_result.webp",
-      "src": "assets/work/ring-beams-05.webp",
-      "width": 750,
-      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 5"
+      "src": "assets/work/ring-beams-sep19-4.webp",
+      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 5",
+      "width": 960,
+      "height": 1280,
+      "source": "армопояс/4.jpg"
     },
     {
-      "height": 1000,
-      "source": "армопояс/photo_2024-12-18_12-52-05.jpg",
-      "src": "assets/work/ring-beams-06.webp",
-      "width": 750,
-      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 6"
+      "src": "assets/work/ring-beams-sep19-5.webp",
+      "alt": "Армопояси — фото робіт YAKIV.BUD.REM, 6",
+      "width": 960,
+      "height": 1280,
+      "source": "армопояс/5.jpg"
     }
   ],
   "roof": [
