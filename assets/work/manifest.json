@@ -45,46 +45,46 @@
   ],
   "plaster": [
     {
-      "height": 1000,
-      "source": "штукатурка/IMG_2354_result.webp",
-      "src": "assets/work/plaster-01.webp",
-      "width": 750,
-      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 1"
+      "src": "assets/work/plaster-sep19-1.webp",
+      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 1",
+      "width": 1200,
+      "height": 1600,
+      "source": "штукатурка/головна_result.webp"
     },
     {
-      "height": 1000,
-      "source": "штукатурка/IMG_1410_result.webp",
-      "src": "assets/work/plaster-02.webp",
-      "width": 750,
-      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 2"
+      "src": "assets/work/plaster-sep19-2.webp",
+      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 2",
+      "width": 1200,
+      "height": 1600,
+      "source": "штукатурка/2_result.webp"
     },
     {
-      "height": 1000,
-      "source": "штукатурка/IMG_1675_result.webp",
-      "src": "assets/work/plaster-03.webp",
-      "width": 750,
-      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 3"
+      "src": "assets/work/plaster-sep19-3.webp",
+      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 3",
+      "width": 1200,
+      "height": 1600,
+      "source": "штукатурка/3_result.webp"
     },
     {
-      "height": 1000,
-      "source": "штукатурка/IMG_3814_result.webp",
-      "src": "assets/work/plaster-04.webp",
-      "width": 750,
-      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 4"
+      "src": "assets/work/plaster-sep19-4.webp",
+      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 4",
+      "width": 1200,
+      "height": 1600,
+      "source": "штукатурка/4_result.webp"
     },
     {
-      "height": 1000,
-      "source": "штукатурка/IMG_2358_result.webp",
-      "src": "assets/work/plaster-05.webp",
-      "width": 750,
-      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 5"
+      "src": "assets/work/plaster-sep19-5.webp",
+      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 5",
+      "width": 1200,
+      "height": 1600,
+      "source": "штукатурка/5_result.webp"
     },
     {
-      "height": 1000,
-      "source": "штукатурка/IMG_3813_result.webp",
-      "src": "assets/work/plaster-06.webp",
-      "width": 750,
-      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 6"
+      "src": "assets/work/plaster-sep19-6.webp",
+      "alt": "Штукатурка — фото робіт YAKIV.BUD.REM, 6",
+      "width": 1200,
+      "height": 1600,
+      "source": "штукатурка/6_result.webp"
     }
   ],
   "ring-beams": [
