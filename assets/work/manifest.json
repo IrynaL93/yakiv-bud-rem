@@ -221,46 +221,46 @@
   ],
   "stairs": [
     {
-      "height": 794,
-      "source": "сходи/photo_2026-09-16_13-51-55_result.webp",
-      "src": "assets/work/stairs-01.webp",
-      "width": 591,
-      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 1"
+      "src": "assets/work/stairs-sep19-1.webp",
+      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 1",
+      "width": 960,
+      "height": 1280,
+      "source": "бетонні сходи/головна.jpg"
     },
     {
-      "height": 1000,
-      "source": "сходи/IMG_8677_result.webp",
-      "src": "assets/work/stairs-02.webp",
-      "width": 750,
-      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 2"
+      "src": "assets/work/stairs-sep19-2.webp",
+      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 2",
+      "width": 964,
+      "height": 1280,
+      "source": "бетонні сходи/2.jpg"
     },
     {
-      "height": 1000,
-      "source": "сходи/photo_2026-09-16_13-52-06_result.webp",
-      "src": "assets/work/stairs-03.webp",
-      "width": 750,
-      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 3"
+      "src": "assets/work/stairs-sep19-3.webp",
+      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 3",
+      "width": 960,
+      "height": 1280,
+      "source": "бетонні сходи/3.jpg"
     },
     {
-      "height": 753,
-      "source": "сходи/photo_2026-09-16_13-52-25_result.webp",
-      "src": "assets/work/stairs-04.webp",
-      "width": 1000,
-      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 4"
+      "src": "assets/work/stairs-sep19-4.webp",
+      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 4",
+      "width": 1280,
+      "height": 960,
+      "source": "бетонні сходи/4.jpg"
     },
     {
-      "height": 1000,
-      "source": "сходи/photo_2026-09-16_13-51-51_result.webp",
-      "src": "assets/work/stairs-05.webp",
-      "width": 750,
-      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 5"
+      "src": "assets/work/stairs-sep19-5.webp",
+      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 5",
+      "width": 960,
+      "height": 1280,
+      "source": "бетонні сходи/5.jpg"
     },
     {
-      "height": 1000,
-      "source": "сходи/photo_2026-09-16_13-53-49_result.webp",
-      "src": "assets/work/stairs-06.webp",
-      "width": 750,
-      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 6"
+      "src": "assets/work/stairs-sep19-6.webp",
+      "alt": "Бетонні сходи — фото робіт YAKIV.BUD.REM, 6",
+      "width": 1280,
+      "height": 964,
+      "source": "бетонні сходи/6.jpg"
     }
   ],
   "walls": [
