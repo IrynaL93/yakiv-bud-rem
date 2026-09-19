@@ -133,46 +133,46 @@
   ],
   "roof": [
     {
-      "height": 1000,
-      "source": "покрівля/IMG_9175_result.webp",
-      "src": "assets/work/roof-01.webp",
-      "width": 750,
-      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 1"
+      "src": "assets/work/roof-sep19-1.webp",
+      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 1",
+      "width": 1200,
+      "height": 1600,
+      "source": "покрівля/головна_result.webp"
     },
     {
-      "height": 1000,
-      "source": "покрівля/IMG_8660_result.webp",
-      "src": "assets/work/roof-02.webp",
-      "width": 750,
-      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 2"
+      "src": "assets/work/roof-sep19-2.webp",
+      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 2",
+      "width": 1200,
+      "height": 1600,
+      "source": "покрівля/2_result.webp"
     },
     {
-      "height": 1000,
-      "source": "покрівля/IMG_8937_result.webp",
-      "src": "assets/work/roof-03.webp",
-      "width": 750,
-      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 3"
+      "src": "assets/work/roof-sep19-3.webp",
+      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 3",
+      "width": 1200,
+      "height": 1600,
+      "source": "покрівля/3_result.webp"
     },
     {
-      "height": 1000,
-      "source": "покрівля/IMG_9083_result.webp",
-      "src": "assets/work/roof-04.webp",
-      "width": 750,
-      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 4"
+      "src": "assets/work/roof-sep19-4.webp",
+      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 4",
+      "width": 1200,
+      "height": 1600,
+      "source": "покрівля/4_result.webp"
     },
     {
-      "height": 1000,
-      "source": "покрівля/IMG_9021_result.webp",
-      "src": "assets/work/roof-05.webp",
-      "width": 750,
-      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 5"
+      "src": "assets/work/roof-sep19-5.webp",
+      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 5",
+      "width": 1200,
+      "height": 1600,
+      "source": "покрівля/5_result.webp"
     },
     {
-      "height": 1000,
-      "source": "покрівля/IMG_9141_result.webp",
-      "src": "assets/work/roof-06.webp",
-      "width": 750,
-      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 6"
+      "src": "assets/work/roof-sep19-6.webp",
+      "alt": "Покрівля — фото робіт YAKIV.BUD.REM, 6",
+      "width": 1200,
+      "height": 1600,
+      "source": "покрівля/6_result.webp"
     }
   ],
   "screed": [
